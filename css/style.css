@@ -1,0 +1,596 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.container::before {
+  content: "";
+  background-image: url(../img/pexels-asad-photo-maldives-3601426.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.logo {
+  text-align: center;
+  font-size: large;
+  position: relative;
+  color: #fff;
+  line-height: 60px;
+  margin: 0;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0);
+  text-transform: uppercase;
+}
+
+.firstSectionHead {
+  position: absolute;
+  top: 50%;
+  left: 48%;
+  transform: translate(-40%, -50%);
+  text-align: center;
+}
+
+.firstSectionHead h1 {
+  font-family: roboto, arial, helvetica;
+  font-weight: bold;
+  line-height: 60px;
+  font-size: 90px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.4);
+  color: #003844;
+  text-transform: uppercase;
+  padding: 50px;
+  margin: 0px;
+}
+
+.firstSectionHead p {
+  font-family: roboto, arial, helvetica;
+  font-size: 25px;
+  padding: 30px;
+}
+
+.aboutMaldives {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.aboutMaldives::before {
+  content: "";
+  background-image: url(../img/pexels-asad-photo-maldives-1430677.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.5;
+}
+
+.aboutBox {
+  position: relative;
+  margin: 10px;
+  width: 40%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.aboutBox h1 {
+  letter-spacing: 0.5px;
+  position: relative;
+  font-size: 75px;
+  text-shadow: 2px 2px 10px rgba(181, 181, 181, 0.4);
+  color: #003844;
+  text-align: left;
+}
+
+.moreAbout {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 50%;
+  margin: 5px;
+}
+
+.moreAbout p {
+  font-size: 20px;
+  position: relative;
+  color: #003844;
+}
+
+.readMore {
+  width: 150px;
+  height: 40px;
+  background-color: #2f2e41;
+  box-shadow: 2px 2px 30px rgba(0, 0, 0, 0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10% 10% 10% 10% / 50% 50% 50% 50%;
+  margin-top: 10px;
+  color: #fff;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  font-size: 1rem;
+  outline: none;
+  cursor: pointer;
+  border: transparent !important;
+}
+
+.readMore:hover {
+  color: #fff;
+  background-color: #003844;
+  transition: all ease 0.5s;
+}
+
+.experienceSection {
+  width: 100%;
+  position: relative;
+  height: 100vh;
+  box-shadow: 2px 2px 30px rgba(167, 158, 245, 0.2);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.experienceSection::before {
+  content: "";
+  background-image: url(../img/beach.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.experienceSection h1 {
+  margin-top: 70px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+  font-size: 2rem;
+  color: #fff;
+}
+
+.experiences {
+  margin-top: 60px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.experienceBox {
+  width: 400px;
+
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  position: relative;
+  margin: 10px 30px;
+  background-image: linear-gradient(
+      to bottom,
+      transparent 60%,
+      rgb(13, 13, 15) 100%
+    ),
+    url(../img/Nzg2ZTljN2JkMTA4YWIyOGRlYmQ4OWViZWU1MjZhZGQ=.jpg);
+  background-size: cover;
+}
+
+.experienceBox2 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 8px;
+  position: relative;
+  margin: 10px 30px;
+  background-image: linear-gradient(
+      to bottom,
+      transparent 55%,
+      rgb(13, 13, 15) 100%
+    ),
+    url(../img/95d9fa48-3aa8-4e16-bcca-9f7ba3d49501de4ce8fc1eecafd29b_E461EB.jpg);
+  background-size: cover;
+}
+
+.experienceBox3 {
+  width: 400px;
+  height: 400px;
+  border-radius: 8px;
+
+  position: relative;
+  margin: 10px 30px;
+  background-image: linear-gradient(
+      to bottom,
+      transparent 30%,
+      rgb(13, 13, 15) 100%
+    ),
+    url(../img/tourist-places-in-maldives5.png);
+  background-size: cover;
+  opacity: 1;
+}
+
+.experienceBox3 h4 {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  bottom: 60px;
+  font-weight: 300;
+  left: 20px;
+  text-shadow: 2px 2px 10px rgba(248, 247, 247, 0.05);
+}
+
+.experienceBox3 img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.experienceBox h4 {
+  color: #fff;
+  font-size: 25px;
+  position: absolute;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  bottom: 60px;
+  left: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.experienceBox img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.experienceBox2 h4 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 25px;
+  position: absolute;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  bottom: 60px;
+  left: 20px;
+  text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.05);
+}
+
+.experienceBox2 img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.excursionBox {
+  position: relative;
+  margin: 10px;
+  width: 40%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.excursionBox h1 {
+  letter-spacing: 0.5px;
+  font-size: 75px;
+  text-shadow: 2px 2px 10px rgba(181, 181, 181, 0.4);
+  color: #003844;
+  text-align: left;
+  position: relative;
+}
+
+.moreExcursion {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 5px;
+  justify-content: space-around;
+  gap: 10px;
+  position: relative;
+}
+
+.moreExcursion h5 {
+  font-weight: 700;
+  font-size: 25px;
+}
+.moreExcursion p {
+  font-size: 18px;
+}
+.excursionSection {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.excursionSection::before {
+  content: "";
+  background-image: url(../img/sandyBeach.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.infoMaldives {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.infoMaldives::before {
+  content: "";
+  background-image: url(../img/stats2.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.column1 {
+  width: 25%;
+  height: 50vh;
+  position: relative;
+
+  background-image: url(../img/jellyfish.jpg);
+  background-size: cover;
+  opacity: 1;
+}
+
+/* Style the images inside the grid */
+.column1 img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.column2 {
+  width: 25%;
+  height: 50vh;
+  position: relative;
+
+  background-image: url(../img/fruit.jpg);
+  background-size: cover;
+  opacity: 1;
+}
+.column2 img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.column3 {
+  width: 25%;
+  height: 50vh;
+  position: relative;
+
+  background-image: url(../img/gallery.jpg);
+  background-size: cover;
+  opacity: 1;
+}
+
+.column4 img {
+  position: absolute;
+  bottom: 20px;
+  left: 20px;
+}
+
+.column4 {
+  width: 25%;
+  height: 50vh;
+  position: relative;
+
+  background-image: url(../img/whale.jpg);
+  background-size: cover;
+  opacity: 1;
+}
+
+.contactUs {
+  width: 100%;
+  height: 50vh;
+  position: relative;
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.contactUs p {
+  position: relative;
+}
+
+.contactUs h1 {
+  position: relative;
+}
+
+.inputArea {
+  width: 200px;
+  background-color: #fff;
+
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px 20px;
+  box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+}
+
+.formBox textarea {
+  box-shadow: 2px 5px 30px rgba(0, 0, 0, 0.1);
+  margin-top: 30px;
+  border: none;
+  font-size: 0.8rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  outline: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputArea input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.contactCenter {
+  justify-content: space-between;
+  padding: 5px;
+  margin: 10px;
+  gap: 20px;
+}
+
+.contactUs::before {
+  content: "";
+  background-image: url(../img/feet.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.75;
+}
+
+.visitorComment {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.visitorComment h5 {
+  position: relative;
+}
+.visitorComment::before {
+  content: "";
+  background-image: url(../img/sand.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  left: 0px;
+  opacity: 0.4;
+}
+
+.visitorBox {
+  border-radius: 80%;
+  position: relative;
+  background-image: url(../img/man.jpg);
+  width: 250px;
+  height: 250px;
+  background-size: cover;
+}
+
+.visitorBody {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  gap: 10px;
+  width: 40%;
+}
+
+.visitorBody h5 {
+  font-size: 25px;
+}
+
+.visitorBody p {
+  font-size: 23px;
+}
+
+.infoCircle {
+  background-color: #0e1e30;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  align-items: center;
+}
+
+.infoCircle h1 {
+  margin-top: 80px;
+  position: relative;
+  color: #e45f07;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 70px;
+}
+
+.infoCircle h4 {
+  margin-top: 10px;
+  position: relative;
+  font-family: monospace;
+  font-size: 18px;
+  color: #fff;
+  font-weight: 200;
+  text-transform: uppercase;
+}
+
+.formBox form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.iconClass {
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  padding: 10px;
+  justify-content: space-between;
+}
